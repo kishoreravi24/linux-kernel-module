@@ -1,0 +1,8 @@
+pre-processing: hello.c -> includes included header file and macro's
+                gcc -E hello.c -o hello.i
+compiler: hello.i -> converting c file to ASM for machine readable
+          gcc -S hello.i -o hello.s
+assembler: hello.s -> converting ASM to object (kernel object)
+           as hello.s -o hello.o
+linker: hello.o object to executable binary
+        gcc -c hello.o -o hello

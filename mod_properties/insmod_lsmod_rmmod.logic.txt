@@ -1,0 +1,13 @@
+insmod:
+	use to load the module in kernel
+	need the sudo permission
+	execute with the .ko permission
+
+lsmod:
+	use to get the information of active modules in kernel
+	no need of permission
+
+rmmod:
+	used to remove the module from kernel
+	sudo permission is required
+	execute without .ko extension

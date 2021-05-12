@@ -1,0 +1,4 @@
+obj-m: helloworld_module.c
+creating a object as a module, kernel object
+
+make -C /usr/src/linux-headers-`uname -r` M=/home/kishore/DriveD/linux-header-module/module/
