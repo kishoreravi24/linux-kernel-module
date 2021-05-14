@@ -1,2 +1,5 @@
 to check the current log level:
 cat /proc/sys/kernel/printk
+Example:
+    6 6 1 7
+    6 -> pr_info , 1-> minimum, 7->maximum
