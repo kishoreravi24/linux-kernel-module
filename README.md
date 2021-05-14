@@ -13,5 +13,13 @@ learning and creating a basic Linux kernel device driver
   basic printk log level program to understand ring buffer aka dmesg
   
   ![Screenshot from 2021-05-14 10-05-44](https://user-images.githubusercontent.com/36214175/118222529-73c3a980-b49d-11eb-8697-cb660cfff235.png)
+  
+## kernel_space_management:
+   with __init keyword you can see the cleanup of the functions both start and exit
+   
+   kernel_space (__init) && basic_loglevel without(__init)
+   
+   ![Screenshot from 2021-05-14 14-14-46](https://user-images.githubusercontent.com/36214175/118246336-7636fb00-b4bf-11eb-8692-38458afc4a96.png)
+
 
   
