@@ -1,0 +1,1 @@
+cmd_/home/kishore/DriveD/linux-kernel-module/console_log_level_basic//basic_loglevel.mod := { echo  /home/kishore/DriveD/linux-kernel-module/console_log_level_basic//basic_loglevel.o;  echo; } > /home/kishore/DriveD/linux-kernel-module/console_log_level_basic//basic_loglevel.mod
