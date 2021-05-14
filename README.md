@@ -23,3 +23,14 @@ learning and creating a basic Linux kernel device driver
 
 
   
+
+## Character_driver:
+ ![Screenshot from 2021-05-14 20-24-53](https://user-images.githubusercontent.com/36214175/118289631-2e31cb80-b4f3-11eb-97bc-8951828a0c72.png)
+ 
+ ![Screenshot from 2021-05-14 20-25-29](https://user-images.githubusercontent.com/36214175/118289637-2ffb8f00-b4f3-11eb-9733-f0739bc86d50.png)
+ 
+ ![Screenshot from 2021-05-14 20-26-16](https://user-images.githubusercontent.com/36214175/118289647-325de900-b4f3-11eb-9c59-ff998d087188.png)
+ 
+ ![Screenshot from 2021-05-14 20-26-25](https://user-images.githubusercontent.com/36214175/118289658-3427ac80-b4f3-11eb-87f4-3272a3d93119.png)
+ 
+ ![Screenshot from 2021-05-14 20-27-21](https://user-images.githubusercontent.com/36214175/118289668-368a0680-b4f3-11eb-968f-99b4bbffee0e.png)
