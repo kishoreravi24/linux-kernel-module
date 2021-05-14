@@ -1,2 +1,2 @@
-/home/kishore/DriveD/linux-kernel-module/module/helloworld_module.o
+/home/kishore/DriveD/linux-kernel-module/module//helloworld_module.o
 

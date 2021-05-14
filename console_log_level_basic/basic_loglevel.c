@@ -3,7 +3,7 @@
 
 
 int function_start(void) {
-    pr_info("Simple basic program printing with pr_notice\n");
+    pr_info("Simple basic program printing with pr_info\n");
     return 0;
 }
 
