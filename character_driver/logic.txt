@@ -1,0 +1,32 @@
+include module.h, kernel.h
+start and exit function with module_init and module_exit
+register and unregister with device: 255 , you can see it in /proc/devices
+register and unregister parameters device number, name, and address for the file_operations(&_file_)
+
+//file operations:
+    include fs.h
+    //take open,read,write,close from fs.h
+    struct file_operations _file_ = {
+        // see bootlin website for reference
+        open,
+        read,
+        write,
+        close
+    };
+
+//make file
+//insmode
+//lsmod
+//check proc devices 255
+//make new entry on dev/ file list: sudo mknod -m 666 /dev/(name)character_driver_simple c (device_number) 255 0
+
+//testing:
+    dmesg:
+        started message
+    create a file enter value and close it
+    cat /dev/character_driver_simple
+    // view syslog -> cat /var/log/syslog | tail
+        // open message
+        // read message
+        // write message
+        // close message
